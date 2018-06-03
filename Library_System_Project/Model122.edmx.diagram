@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f9eb7ead59a44bf39b78b4aa262da966" Name="Diagram1">
+        <EntityTypeShape EntityType="LibrarySystemModel1.Author" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Book" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Borrwed_Book" Width="1.5" PointX="6.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Category" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Publisher" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Reader_Book" Width="1.5" PointX="9.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Shelf" Width="1.5" PointX="0.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.sysdiagram" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.Users" Width="1.5" PointX="3.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.User_Permsions" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.User_Status" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibrarySystemModel1.User_Type" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Book_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Book_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Book_Shelf" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Borrwed_Book_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Reader_Book_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Borrwed_Book_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Borrwed_Book_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Reader_Book_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_Reader_Book_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_User_User_Permsions" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_User_User_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="LibrarySystemModel1.FK_User_User_Type" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

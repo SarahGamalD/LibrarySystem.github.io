@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EmpMaster.master.cs" Inherits="Library_System_Project.Employee.EmpMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .jumbotron {
+            margin-top: -5px;
+            height: 40px;
+        }
+        .glyphicon-book {
+            color: red;
+        }
+        .col-xs-offset-2 {
+            margin-top: -50px;
+        }
+        .bg-4 {
+            background-color: #EEEEEE;
+            
+        }
+
+    </style>
+</head>
+<body>
+<form id="form1" runat="server">
+    <!--Container-->
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-12 h1 jumbotron fa-3x">Library System<span class="glyphicon glyphicon glyphicon-book"></span></div>
+        </div>
+        <div class="row" style="background-color: #EF543B; height: 35px; margin-top: -30px;">
+            <div class="col-lg-10 col-xs-offset-2 text-center">
+                <ul class="pagination center-block">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Manage Members</a></li>
+                    <li><a href="#">Manage Books</a></li>
+                    <li><a href="#">Search Book</a></li>
+                    <li><a href="#">Borrower Books</a></li>
+                    <li><a href="#">Reader Books</a></li>
+                    <li><a href="#">Return Book</a></li>
+                </ul>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+</form>
+</body>
+</html>
+
+
